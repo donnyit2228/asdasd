@@ -1,0 +1,336 @@
+/* ИМПОРТИРОВАНИЕ ШРИФТОВ */
+
+@import url('https://fonts.googleapis.com/css2?family=Khula&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@500;700&display=swap');
+
+/* ОСНОВНЫЕ СТИЛИ */
+
+body {
+    font-family: "Khula";
+}
+
+.container {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* PAGE-1  -------------------*/
+
+.title {
+    font-family: Karma;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 55px;
+}
+
+.subtitle {
+    font-family: Karma;
+    font-size: 40px;
+    font-weight: 700;
+    /* padding-top: 100px; */
+}
+
+/* .main-video {
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: -1px 20px 50px 0px rgba(0, 0, 0, 0.42);
+} */
+
+.main-content p {
+    width: 316px;
+    height: 896px;
+    color: #3C3C3C;
+    font-family: Khula;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-open {
+    display: inline-flex;
+    padding: 4px 26px 3px 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 5px 20px 0px rgba(66, 66, 66, 0.25);
+    color: #000;
+    font-family: Karma;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-flex;
+    height: 46px;
+    padding: 11px 102px 10px 100px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(72, 72, 72, 0.25);
+}
+
+.button-text {
+    font-family: Karma;
+    font-size: 20px;
+    font-weight: 700;
+    width: 128px;
+    height: 25px;
+}
+
+.button2 {
+    /* display: flex; */
+    width: 330px;
+    height: 46px;
+    padding: 11px 86px 10px 86px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(72, 72, 72, 0.25);
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+
+
+
+/* PAGE-2  -------------------*/
+
+.main-title {
+    display: flex;
+    width: 360px;
+    height: 128px;
+    padding: 10px 18px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F3F3F3;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.42);
+    margin-top: 40px;
+}
+
+.main-text {
+    width: 324px;
+    height: 108px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Karma;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-pic {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+
+/* PAGE-3  -------------------*/
+
+
+.dog-pic {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 180px;
+}
+
+.text {
+    margin-top: 60px;
+}
+
+.button-intermediary {
+    display: flex;
+    width: 128px;
+    height: 50px;
+    padding: 13px 35px 13px 36px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 5px 20px 0px rgba(76, 76, 76, 0.25);
+    margin-bottom: 40px;
+}
+
+.intermediary-buttons {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 70px;
+    margin-top: 40px;
+}
+
+/* PAGE-4  -------------------*/
+
+.intermediary-text {
+    width: 316px;
+    height: 784px;
+    flex-shrink: 0;
+    color: #3C3C3C;
+    font-family: Khula;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* .pic {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+    background-color: #fff;
+
+} */
+
+/* .button-open {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+    background-color: #fff;
+} */
+
+/* PAGE-5  -------------------*/
+
+
+
+
+
+
+/* PAGE-6  -------------------*/
+
+
+
+
+
+/* PAGE-7  -------------------*/
+
+.pic {
+    margin-bottom: 80px;
+}
+
+
+
+
+/* PAGE-8  -------------------*/
+
+.pic-bottom {
+    margin-bottom: 180px;
+}
+
+/* PAGE-9  -------------------*/
+
+.menu-title {
+    width: 104px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Karma;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.main-title-second {
+    display: flex;
+    width: 360px;
+    height: 128px;
+    /* padding: 10px 18px; */
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F3F3F3;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.42);
+}
+
+.big-button {
+    display: inline-flex;
+    padding: 18px 48px 10px 49px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 40px;
+}
+
+.big-button-text {
+    color: #000;
+    text-align: center;
+    font-family: Karma;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.menu__card {
+    width: 170px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: -1px 20px 35px 0px rgba(0, 0, 0, 0.42);
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-title {
+    color: #000;
+    text-align: center;
+    font-family: Karma;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    /* padding-right: 400px; */
+    padding-top: 165px;
+    padding-left: 15px;
+}
+
+.card-subtitle {
+    color: #949393;
+    text-align: center;
+    font-family: Khula;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    padding-top: 190px;
+    padding-left: 25px;
+}
+
+
+/* PAGE-10  ------------------- */
+
+.big-dog-pic {
+    padding-top: 90px;
+    z-index: 0;
+    /* position: absolute; */
+}
+
+.card-button {
+    display: flex;
+    width: 276px;
+    padding: 21px 93px 13px 94px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 5px 15px 30px 0px rgba(0, 0, 0, 0.40);
+    position: relative;
+    z-index: 1;
+    margin-top: 00px;
+    margin-left: 40px;
+}
